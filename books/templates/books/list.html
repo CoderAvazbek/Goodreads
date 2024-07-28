@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1> Books </h1>
+    <div>
+    {% if messages %}
+        {% for message in messages %}
+            {{ message }}
+        {% endfor %}
+    {% endif %}
+    </div>
+
+    
+    <ul>
+        {% for book in books %}
+            <li>
+                <a href="{% url 'book-detail' book.id %}">{{ book.title }}</a>
+            </li>
+            <br>
+        {% endfor %}
+    </ul>
+    
+    
+    {% endblock content %}

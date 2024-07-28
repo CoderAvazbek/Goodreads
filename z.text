@@ -1,0 +1,10 @@
+problemas
+
+1: int, float, string, boolean, list, tuple -> har bita malumot turiga misol yozib bering va misolga tarif bering
+2: String methodlarini barchasiha misol yozib bering
+3: ruyxat berilgan ruyxatda 10 ta ism bor ismlarni bosh harfi A yoki a harfi bilan boshlanganlarni alohida listga oling
+4: eng va uzb ligat yaring user inglizcha kalit zur kiritsan ahar lugatda usha suz bulsa uzbekcha tarjimasni topib bering
+5: funkisya nima:
+    len() -> funkisya ichki tuzilishini yozib bering
+    mix() -> funkisya ichki tuzilishini yozib bering
+    min() -> funkisya ichki tuzilishini yozib bering
